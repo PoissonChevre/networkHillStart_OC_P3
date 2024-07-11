@@ -21,6 +21,8 @@ Définition des adresses de broadcast et des masques de sous-réseau.
 
 ## II. Réalisations
 
+Dans un premier temps, j'ai pris en compte les besoins spécifiques et les spécifications du cahier des charges selon les plans du bâtiment. J'ai élaboré le schéma physique en tenant compte du dimensionnement des switches et en détaillant l'emplacement de chaque équipement dans leur local respectif. Parallèlement, j'ai avancé sur le schéma logique et le plan d'adressage du réseau en définissant les VLANs, leurs adresses réseau avec des masques adaptés. Mon plan d'adressage réseau comprend les configurations DHCP et statiques, avec pour chaque VLAN des masques adaptés aux besoins du cahier des charges. J'ai également rédigé une matrice avec les règles de connexion inter-VLAN.
+
 ### 1. Schéma physique
 
 ![schéma_physique_](./P3_schéma_physique2_062023.png)  
@@ -39,7 +41,7 @@ Définition des adresses de broadcast et des masques de sous-réseau.
 - Construire un réseau TCP-IP
 - Formaliser les procédures via une documentation technique
 
-## IV. ressources consultées pour la réalisation du projet
+## IV. Ressources consultées pour la réalisation du projet
 
 - [Maîtrisez vos applications et réseaux TCP/IP](https://openclassrooms.com/fr/courses/2340511-maitrisez-vos-applications-et-reseaux-tcp-ip)  
 - [Concevez votre réseau TCP/IP](https://openclassrooms.com/fr/courses/6944606-concevez-votre-reseau-tcp-ip)  
