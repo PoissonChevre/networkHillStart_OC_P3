@@ -19,7 +19,7 @@ Règles de connexion entre les VLAN.
 Allocation des adresses IP (DHCP et statiques).
 Définition des adresses de broadcast et des masques de sous-réseau.
 
-## II. Réalisations
+## II. Réalisation
 
 Dans un premier temps, j'ai pris en compte les besoins spécifiques et les spécifications du cahier des charges selon les plans du bâtiment. J'ai élaboré le schéma physique en tenant compte du dimensionnement des switches et en détaillant l'emplacement de chaque équipement dans leur local respectif. Parallèlement, j'ai avancé sur le schéma logique et le plan d'adressage du réseau en définissant les VLANs, leurs adresses réseau avec des masques adaptés. Mon plan d'adressage réseau comprend les configurations DHCP et statiques, avec pour chaque VLAN des masques adaptés aux besoins du cahier des charges. J'ai également rédigé une matrice avec les règles de connexion inter-VLAN.
 
@@ -37,7 +37,7 @@ Dans un premier temps, j'ai pris en compte les besoins spécifiques et les spéc
 
 ## III. Compétences et technologies acquises
 
-- Concevoir la cartographie d'un réseau
+- Concevoir la cartographie d'un réseau via [draw.io](https://app.diagrams.net/)
 - Construire un réseau TCP-IP
 - Formaliser les procédures via une documentation technique
 
